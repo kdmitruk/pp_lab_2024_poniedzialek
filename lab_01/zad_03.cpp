@@ -1,9 +1,10 @@
-#include <iostream>
+#include <cstdio>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    int a = 10;
+    printf("Dziesiętnie: %d, ósemkowo: %o, szestnastkowo: %x \n", a, a, a);
     return 0;
 }
