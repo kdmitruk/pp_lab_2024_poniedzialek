@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
-    return 0;
+    float n = 12;
+    float an = 30;
+    float sn = 162;
+    float a1 = 2 * sn / n - an;
+    cout << a1 << endl;
 }
