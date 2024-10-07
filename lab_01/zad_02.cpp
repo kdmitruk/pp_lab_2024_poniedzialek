@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    int16_t a = 5;
+    int b = 10;
+    cout << a + b << endl;
     return 0;
 }
