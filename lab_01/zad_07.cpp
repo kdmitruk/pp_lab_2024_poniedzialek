@@ -4,6 +4,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    float a, b;
+    cout << "Podaj a i b: ";
+    cin >> a;
+    cin >> b;
+    cout << "\nIloczyn: " << a * b;
+
     return 0;
 }
