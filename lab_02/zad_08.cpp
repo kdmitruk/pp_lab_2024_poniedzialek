@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    float a = -14.7;
+    cout << abs(a) << endl;
     return 0;
 }
