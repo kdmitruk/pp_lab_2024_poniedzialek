@@ -12,5 +12,6 @@ int main()
     cout << ((a2 < b1)||(a1 > b2) ? "no ":"") << "intersection" << endl;
 
 
+
     return 0;
 }
