@@ -2,8 +2,11 @@
 
 using namespace std;
 
+const int N = 3;
+
 int main()
 {
-    cout << "Hello World!" << endl;
+    //N = 5;
+    cout << N;
     return 0;
 }

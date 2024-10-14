@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(pp_lab_2024_sroda LANGUAGES CXX)
+project(pp_lab_2024_poniedzialek LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
