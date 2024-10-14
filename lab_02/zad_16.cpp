@@ -7,9 +7,9 @@ int main()
     char znak;
     cout << "Podaj znak: " << endl;
     cin >> znak;
-    if(znak>='a' && znak<='z'){
+    if(znak>='a' && znak<='z')
         cout << "jest to mała litera";
-    } else{
+     else{
         cout << "nie jest to mała litera";
     }
     return 0;
