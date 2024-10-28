@@ -1,6 +1,7 @@
 //Napisz program, który dla tablicy liczb całkowitych wypisze z niej wartość najbliższą
 //średniej arytmetycznej wszystkich wartości z tej tablicy.
 #include <iostream>
+#include <cfloat>
 #include <cmath>
 
 using namespace std;
@@ -15,7 +16,7 @@ int main()
     }
     avg/=size;
     float diff;
-    float min_diff = MAXFLOAT;
+    float min_diff = FLT_MAX;
     int index;
     for(int i=0;i<size;i++){
         diff = fabs(arr[i] - avg);
