@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(pp_lab_2024_poniedzialek LANGUAGES CXX)
+project(pp_lab_2024_sroda LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -23,3 +23,5 @@ endfunction()
 add_subdirectory(lab_01)
 add_subdirectory(lab_02)
 add_subdirectory(lab_03)
+add_subdirectory(lab_04)
+
